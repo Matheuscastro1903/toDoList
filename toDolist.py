@@ -327,6 +327,8 @@ class Cadastro:
         print("Limite de tentativas excedido. Encerrando.")
         sys.exit()
 
+    
+
     def salvar_dados(self):
         try:
             with open("arquivo.json", "r", encoding="utf-8") as arquivo:
@@ -344,13 +346,24 @@ class Cadastro:
             json.dump(dados, arquivo, indent=4, ensure_ascii=False)
 
         print("Cadastro realizado com sucesso!")
+        tentativas=3
+        while tentativas>0:
+            opcao = input("Digite 'login' para entrar ou 'sair' para encerrar: ").strip().lower()
+            if opcao in ["login","logar"]:
+                login()
+            elif opcao in ["sair","sai","saida"]:
+                print("Encerrando o sistema.")
+                sys.exit()
+            else:
+                print("Resposta inválida")
+                tentativas-=1
+                print(f"Tentativas restantes {tentativas}")
 
-        opcao = input("Digite 'login' para entrar ou 'sair' para encerrar: ").strip().lower()
-        if opcao == "login":
-            login()
         else:
+            print("Número de tentativas extrapoladas")
             print("Encerrando o sistema.")
             sys.exit()
+
 
 
 

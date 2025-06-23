@@ -1,0 +1,62 @@
+{
+    "senha": {
+        "joao.silva@email.com": "48291",
+        "maria.souza@email.com": "73562",
+        "carlos.pereira@email.com": "92847",
+        "ana.costa@email.com": "61385",
+        "gabriel.escobar@gmail.com": "0345",
+        "matheus1903@gmail.com": "7654321",
+        "samuel.andrade@gmail.com": "353232",
+        "vinicastro@gmail.com": "050912",
+        "julinhacastro1907@gmail.com": "jujuba321",
+        "albuquerquegustavo@hotmail.com": "0830",
+        "matheusinho123@gmail.com": "12345"
+    },
+    "fazer": {
+        "joao.silva@email.com": [],
+        "maria.souza@email.com": [],
+        "carlos.pereira@email.com": [],
+        "ana.costa@email.com": [],
+        "gabriel.escobar@gmail.com": [],
+        "matheus1903@gmail.com": [],
+        "samuel.andrade@gmail.com": [],
+        "vinicastro@gmail.com": [],
+        "julinhacastro1907@gmail.com": [],
+        "albuquerquegustavo@hotmail.com": [],
+        "matheusinho123@gmail.com": [
+            "Fazer tarefa de casa"
+        ]
+    },
+    "fazendo": {
+        "joao.silva@email.com": [],
+        "maria.souza@email.com": [],
+        "carlos.pereira@email.com": [],
+        "ana.costa@email.com": [],
+        "gabriel.escobar@gmail.com": [],
+        "matheus1903@gmail.com": [],
+        "samuel.andrade@gmail.com": [],
+        "vinicastro@gmail.com": [],
+        "julinhacastro1907@gmail.com": [],
+        "albuquerquegustavo@hotmail.com": [],
+        "matheusinho123@gmail.com": [
+            "Organizar arquivos",
+            "ligar para júlia"
+        ]
+    },
+    "feito": {
+        "joao.silva@email.com": [],
+        "maria.souza@email.com": [],
+        "carlos.pereira@email.com": [],
+        "ana.costa@email.com": [],
+        "gabriel.escobar@gmail.com": [],
+        "matheus1903@gmail.com": [],
+        "samuel.andrade@gmail.com": [],
+        "vinicastro@gmail.com": [],
+        "julinhacastro1907@gmail.com": [],
+        "albuquerquegustavo@hotmail.com": [],
+        "matheusinho123@gmail.com": [
+            "Enviar relatório",
+            "Estudar Python"
+        ]
+    }
+}
